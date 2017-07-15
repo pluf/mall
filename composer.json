@@ -1,0 +1,53 @@
+{
+	"name" : "pluf/mall",
+	"description" : "A module to work with multiple shop",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Mostafa Barmshory",
+			"email" : "mostafa.barmshory@dpq.co.ir",
+			"homepage" : "http://dpq.co.ir",
+			"role" : "developer"
+		}, {
+			"name" : "Mohammad Hadi Mansouri",
+			"email" : "mohammad.hadi.mansouri@dpq.co.ir",
+			"homepage" : "http://dpq.co.ir",
+			"role" : "developer"
+		}, {
+			"name" : "MahdiIsComing",
+			"role" : "developer",
+			"email" : "mahdi.ar@dpq.co.ir"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"pluf/cache" : "^2.1.0",
+		"pluf/cms" : "^2.1.0",
+		"pluf/core" : "^2.1.0",
+		"pluf/bank" : "^2.1.0",
+		"pluf/assort" : "^2.1.0",
+		"pluf/geo" : "^2.1",
+		"pluf/shop" : "^0.1.0"
+	},
+	"repositories" : [{
+			"type" : "path",
+			"url" : "../shop"
+		}
+	],
+	"include-path" : [
+		"src/"
+	],
+	"homepage" : "https://gitlab.com/microshop/mall",
+	"support" : {
+		"email" : "info@pluf.ir",
+		"issues" : "https://gitlab.com/microshop/mall/issues",
+		"wiki" : "https://gitlab.com/microshop/mall/wikis/home",
+		"source" : "https://gitlab.com/microshop/mall"
+	},
+	"keywords" : [
+		"pluf",
+		"shop",
+		"sell",
+		"service"
+	]
+}
