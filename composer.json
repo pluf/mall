@@ -3,6 +3,7 @@
 	"description" : "A module to work with multiple shop",
 	"type" : "library",
 	"license" : "MIT",
+	"version" : "0.2.0",
 	"authors" : [{
 			"name" : "Mostafa Barmshory",
 			"email" : "mostafa.barmshory@dpq.co.ir",
@@ -27,7 +28,7 @@
 		"pluf/bank" : "^2.1.0",
 		"pluf/assort" : "^2.1.0",
 		"pluf/geo" : "^2.1",
-		"pluf/shop" : "^0.1.0"
+		"pluf/shop" : "^0.2.0"
 	},
 	"repositories" : [{
 			"type" : "path",
