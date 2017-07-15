@@ -3,6 +3,7 @@
 	"description" : "A module to work with multiple shop",
 	"type" : "library",
 	"license" : "MIT",
+	"version" : "0.1.0",
 	"authors" : [{
 			"name" : "Mostafa Barmshory",
 			"email" : "mostafa.barmshory@dpq.co.ir",
