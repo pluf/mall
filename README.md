@@ -1,5 +1,8 @@
 # mall
 
+[![Build Status](https://travis-ci.org/pluf/mall.svg?branch=master)](https://travis-ci.org/pluf/mall)
+
+
 این پروژه یک ماژول برای سرورهای pluf است که امکانات مربوط به مدیریت مجموعه‌ای از فروشگاه آنلاین ساده (مجموعه‌ای از ماژول‌های pluf/shop) را فراهم می‌کند.
 
 این ماژول امکانات زیر را دارد:
