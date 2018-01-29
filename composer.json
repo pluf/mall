@@ -3,7 +3,6 @@
 	"description" : "A module to work with multiple shop",
 	"type" : "library",
 	"license" : "MIT",
-	"version" : "0.2.0",
 	"authors" : [{
 			"name" : "Mostafa Barmshory",
 			"email" : "mostafa.barmshory@dpq.co.ir",
@@ -22,19 +21,17 @@
 	],
 	"minimum-stability" : "stable",
 	"require" : {
-		"pluf/cache" : "^2.1.0",
-		"pluf/cms" : "^2.1.0",
-		"pluf/core" : "^2.1.0",
-		"pluf/bank" : "^2.1.0",
-		"pluf/assort" : "^2.1.0",
-		"pluf/geo" : "^2.1",
-		"pluf/shop" : "^0.2.0"
+		"pluf/cache" : "^3.0.0",
+		"pluf/cms" : "^3.0.0",
+		"pluf/core" : "^3.0.0",
+		"pluf/bank" : "^3.0.0",
+		"pluf/assort" : "^3.0.0",
+		"pluf/geo" : "^3.0.0",
+		"pluf/shop" : "^3.0.0"
 	},
-	"repositories" : [{
-			"type" : "path",
-			"url" : "../shop"
-		}
-	],
+	"require-dev" : {
+		"pluf/test" : "^3.0.0"
+	},
 	"include-path" : [
 		"src/"
 	],
