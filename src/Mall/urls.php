@@ -51,7 +51,7 @@ return array(
 //         'method' => 'createObject',
 //         'http-method' => 'POST',
 //         'precond' => array(
-//             'Pluf_Precondition::ownerRequired'
+//             'User_Precondition::ownerRequired'
 //         ),
 //         'params' => array(
 //             'model' => 'Shop_Agency'
@@ -72,7 +72,7 @@ return array(
 //         'method' => 'deleteObject',
 //         'http-method' => 'DELETE',
 //         'precond' => array(
-//             'Pluf_Precondition::ownerRequired'
+//             'User_Precondition::ownerRequired'
 //         ),
 //         'params' => array(
 //             'model' => 'Shop_Agency',
@@ -85,7 +85,7 @@ return array(
 //         'method' => 'updateObject',
 //         'http-method' => 'POST',
 //         'precond' => array(
-//             'Pluf_Precondition::ownerRequired'
+//             'User_Precondition::ownerRequired'
 //         ),
 //         'params' => array(
 //             'model' => 'Shop_Agency'
@@ -135,8 +135,8 @@ return array(
 //             'model' => 'Shop_Product'
 //         ),
 //         'precond' => array(
-//             'Pluf_Precondition::loginRequired',
-//             'Pluf_Precondition::memberRequired'
+//             'User_Precondition::loginRequired',
+//             'User_Precondition::memberRequired'
 //         )
 //     ),
     array( // Get info
@@ -158,8 +158,8 @@ return array(
 //             'permanently' => true
 //         ),
 //         'precond' => array(
-//             'Pluf_Precondition::loginRequired',
-//             'Pluf_Precondition::memberRequired'
+//             'User_Precondition::loginRequired',
+//             'User_Precondition::memberRequired'
 //         )
 //     ),
 //     array( // Update
@@ -171,8 +171,8 @@ return array(
 //             'model' => 'Shop_Product'
 //         ),
 //         'precond' => array(
-//             'Pluf_Precondition::loginRequired',
-//             'Pluf_Precondition::memberRequired'
+//             'User_Precondition::loginRequired',
+//             'User_Precondition::memberRequired'
 //         )
 //     ),
     // ************************************************************* Service
@@ -210,8 +210,8 @@ return array(
 //             'model' => 'Shop_Service'
 //         ),
 //         'precond' => array(
-//             'Pluf_Precondition::loginRequired',
-//             'Pluf_Precondition::memberRequired'
+//             'User_Precondition::loginRequired',
+//             'User_Precondition::memberRequired'
 //         )
 //     ),
     array( // Get info
@@ -233,8 +233,8 @@ return array(
 //             'permanently' => true
 //         ),
 //         'precond' => array(
-//             'Pluf_Precondition::loginRequired',
-//             'Pluf_Precondition::memberRequired'
+//             'User_Precondition::loginRequired',
+//             'User_Precondition::memberRequired'
 //         )
 //     ),
 //     array( // Update
@@ -246,8 +246,8 @@ return array(
 //             'model' => 'Shop_Service'
 //         ),
 //         'precond' => array(
-//             'Pluf_Precondition::loginRequired',
-//             'Pluf_Precondition::memberRequired'
+//             'User_Precondition::loginRequired',
+//             'User_Precondition::memberRequired'
 //         )
 //     ),
 );
