@@ -21,16 +21,16 @@
 	],
 	"minimum-stability" : "stable",
 	"require" : {
-		"pluf/cache" : "5.4.x",
-		"pluf/cms" : "5.4.x",
-		"pluf/core" : "5.4.x",
-		"pluf/bank" : "5.4.x",
-		"pluf/assort" : "5.4.x",
-		"pluf/geo" : "5.4.x",
-		"pluf/shop" : "5.4.x"
+		"pluf/cache" : "5.5.x",
+		"pluf/cms" : "5.5.x",
+		"pluf/core" : "5.5.x",
+		"pluf/bank" : "5.5.x",
+		"pluf/assort" : "5.5.x",
+		"pluf/geo" : "5.5.x",
+		"pluf/shop" : "5.5.x"
 	},
 	"require-dev" : {
-		"pluf/test" : "5.4.x"
+		"pluf/test" : "5.5.x"
 	},
 	"include-path" : [
 		"src/"
