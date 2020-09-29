@@ -8,7 +8,7 @@ return array(
         'http-method' => 'GET',
         'params' => array(
             'model' => 'Mall_Agency',
-            'sql' => new Pluf_SQL('deleted=false'),
+            'sql' => 'deleted=false',
             'listFilters' => array(
                 'id',
                 'title',
